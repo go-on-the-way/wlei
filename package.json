@@ -7,9 +7,10 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "start": "npm run build&&npm run server",
+    "start": "hexo generate && hexo server",
     "new": "hexo new",
-    "hexo": "hexo"
+    "hexo": "hexo",
+    "update": "hexo clean && hexo deploy"
   },
   "hexo": {
     "version": "4.0.0"
