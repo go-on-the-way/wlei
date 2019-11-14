@@ -13,8 +13,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://go-on-the-way.github.io/wlei
-root: /wlei/
+url: https://wlei.netlify.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,4 +97,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/go-on-the-way/wlei
-  branch: gh-pages
+  branch: netlify-page
